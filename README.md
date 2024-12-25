@@ -14,7 +14,8 @@ This project demonstrates a simple client-server architecture using socket progr
 - **Server1.c**: This server handles a single client connection, modifies received messages, and sends the modified data back to the client.
 - **Server2.c**: This is a modified version of server1, but it keeps the conection socket open and can accept any numberof connections until the user input is the exit message. Otherwise, the data is modified and sent back as usual.
 - **Server3.c**: Modified from Server2, but only accepts commands as inputs. It can only take 2 commands, "Date"  which displays the current date time and in your timezone and the exit message.
-- **Server4.c**: Modified from Server3, also takes in an extra command "Time" which can followed by a timezone "Time <timezone>. The following timezones have been implemented ![image](https://github.com/user-attachments/assets/406bfe22-d514-4a8c-9bcb-9feef3e0915b)
+- **Server4.c**: Modified from Server3, also takes in an extra command "Time" which can followed by a timezone "Time <timezone>. The following timezones have been implemented
+-  ![image](https://github.com/user-attachments/assets/406bfe22-d514-4a8c-9bcb-9feef3e0915b)
 - **Server5.c**: This server supports two clients at the same time. It utilizes threads to handle communication with two clients. Messages from one client are forwarded to the other. Communication happens in real time. 
 
 ### Client Files
